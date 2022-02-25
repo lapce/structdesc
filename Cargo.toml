@@ -1,0 +1,13 @@
+[package]
+name = "structdesc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+darling = "0.13.1"
+proc-macro2 = "1"
+quote = "1.0.14"
+syn = { version = "1.0.84", features = ["full"] }
+
+[lib]
+proc-macro = true
